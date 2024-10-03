@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>MSBD5003 Project | Team 16</title>
+    <link href="/static/css/styles.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/bootstrap-icons.min.css">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        th, td {
+          text-align: left;
+          padding: 16px;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+          background-color: #4CAF50;
+          color: white;
+        }
+
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+
+        @media screen and (min-width: 768px) {
+          table {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+          }
+        }
+    </style>
+</head>
+
+<body class="sb-nav-fixed">
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand ps-3" href="sentiment.html"><i class="bi bi-map-fill me-2"></i>Reddit Discovery</a>
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
+        <i class="bi bi-list"></i>
+    </button>
+</nav>
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Modules</div>
+                    <a class="nav-link" href="wordcloud.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+                        Word Cloud
+                    </a>
+                    <a class="nav-link" href="sentiment.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-people-fill"></i></div>
+                        Sentiment Analysis
+                    </a>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Author:</div>
+                2023 Spring Team 16
+            </div>
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main class="container-fluid px-4">
+            <h1 class="mt-4" style="margin-bottom: 20px;">Sentiment Analysis</h1>
+        </main>
+        <div class="row">
+            <div class="col-md-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <div style="width: 25px; height: 100%;"></div> <!-- 添加一个空白div，设置宽度为5像素 -->
+                    </div>
+                    <input id="input-box" type="text" class="form-control" placeholder="Please enter the data to send" aria-label="请输入要发送的数据" aria-describedby="submit-btn">
+                    <div class="input-group-append">
+                        <button id="submit-btn" class="btn btn-primary" type="button">send</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <table id="mytable"></table>
+            </div>
+        </div>
+        
+        <footer class="py-4 bg-light">
+            <div class="text-muted text-center small">Copyright &copy; Weiming Guo, Yizhun Zhang and Zijian Wan 2023
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scripts.min.js"></script>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="/static/js/sentiment.js"></script>
+</body>
+</html>

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>MSBD5003 Project | Team 16</title>
+    <link href="/static/css/styles.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/static/css/bootstrap-icons.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/echarts/4.3.0/echarts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        table {
+          border-collapse: collapse;
+          width: 100%;
+          margin: 0;
+          padding: 0;
+        }
+
+        th, td {
+          text-align: left;
+          padding: 16px;
+          border-bottom: 1px solid #ddd;
+        }
+
+        th {
+          background-color: #4CAF50;
+          color: white;
+        }
+
+        tr:nth-child(even) {
+          background-color: #f2f2f2;
+        }
+
+        @media screen and (min-width: 768px) {
+          table {
+            width: 80%;
+            margin-left: 10%;
+            margin-right: 10%;
+          }
+        }
+    </style>
+
+</head>
+
+<body class="sb-nav-fixed">
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand ps-3" href="/templates/wordcloud.html"><i class="bi bi-map-fill me-2"></i>Reddit Discovery</a>
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
+        <i class="bi bi-list"></i>
+    </button>
+</nav>
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Modules</div>
+                    <a class="nav-link" href="www.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+                        Word Cloud
+                    </a>
+                    <a class="nav-link" href="sentiment.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-people-fill"></i></div>
+                        Sentiment Analysis
+                    </a>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Author:</div>
+                ZW
+            </div>
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main class="container-fluid px-4">
+            <h1 class="mt-4">Word Cloud</h1>
+        </main>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="my_dataviz"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        Controls
+                    </div>
+                    <div class="card-body pr-3">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="optionsSelect">Subreddits</label>
+                                <select class="form-control" id="optionsSelect">
+                                    <option value="/word_cloud_json/NBA.json">NBA</option>
+                                    <option value="/word_cloud_json/BITCOIN.json">Bitcoin</option>
+                                    <option value="/word_cloud_json/WORLDNEWS.json">World News</option>
+                                    <option value="/word_cloud_json/CHATGPT.json">ChatGPT</option>
+                                    <option value="/word_cloud_json/HKUST.json">HKUST</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="py-4 bg-light">
+            <div class="text-muted text-center small">Copyright &copy; Chiyu Zhou Zijian Wan 2024
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scripts.min.js"></script>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<!-- Load d3-cloud -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+
+<script>
+    $(document).ready(function() {
+        // 设置SVG区域
+        var margin = {top: 10, right: 10, bottom: 10, left: 10},
+            width = 800 - margin.left - margin.right,
+            height = 600 - margin.top - margin.bottom;
+        var svg = d3.select("#my_dataviz").append("svg")
+            .attr("width", width + margin.left + margin.right)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + (margin.left + width / 2) + "," + (margin.top + height / 2) + ")");
+
+        // 颜色数组
+        var textColors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"];
+
+        // 绘制词云的函数
+        function draw(words) {
+            svg.selectAll("text")
+                .data(words)
+                .enter()
+                .append("text")
+                .style("font-size", function(d) { return d.size + "px"; })
+                .style("font-family", "Impact")
+                .attr("text-anchor", "middle")
+                .attr("transform", function(d) {
+                    return "translate(" + [d.x, d.y] + ")rotate(" + d.rotate + ")";
+                })
+                .style("fill", function(d, i) { return textColors[i % textColors.length]; })
+                .text(function(d) { return d.text; });
+        }
+
+        // 监听下拉框的改变事件
+        $('#optionsSelect').change(function() {
+            var selectedOption = $(this).val(); // 获取用户选择的 JSON 文件路径
+
+            // 发起 AJAX 请求
+            $.ajax({
+                url: selectedOption, // 使用选择的 JSON 文件路径
+                type: 'GET',
+                dataType: 'json',
+                success: function(data) {
+                    // 清除旧的词云
+                    svg.selectAll("text").remove();
+
+                    // 重新创建布局并绘制新的词云
+                    d3.layout.cloud().size([width, height])
+                        .words(data.map(function(d) { return {text: d.word, size: d.count}; }))
+                        .padding(5)
+                        .rotate(function() { return ~~(Math.random() * 2) * 90; })
+                        .fontSize(function(d) { return d.size; })
+                        .on("end", draw)
+                        .start();
+                },
+                error: function(jqXHR, textStatus, errorThrown) {
+                    console.log("加载数据失败: " + textStatus + ", " + errorThrown);
+                }
+            });
+        });
+
+        // 初始加载第一个词云
+        $('#optionsSelect').trigger('change');
+    });
+</script>
+
+</body>
+</html>

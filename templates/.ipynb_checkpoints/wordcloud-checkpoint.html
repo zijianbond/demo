@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <title>MSBD5003 Project | Team 5</title>
+    <link href="{{ url_for('static', filename='css/styles.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap-icons.min.css') }}">
+    <script src="https://cdn.staticfile.org/echarts/4.3.0/echarts.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body class="sb-nav-fixed">
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-dark">
+    <a class="navbar-brand ps-3" href="/templates/wordcloud.html"><i class="bi bi-map-fill me-2"></i>Reddit Discovery</a>
+    <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" href="#!">
+        <i class="bi bi-list"></i>
+    </button>
+</nav>
+<div id="layoutSidenav">
+    <div id="layoutSidenav_nav">
+        <nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+            <div class="sb-sidenav-menu">
+                <div class="nav">
+                    <div class="sb-sidenav-menu-heading">Modules</div>
+                    <a class="nav-link" href="/templates/wordcloud.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-bar-chart-line-fill"></i></div>
+                        Word Cloud
+                    </a>
+                    <a class="nav-link" href="/templates/sentiment.html">
+                        <div class="sb-nav-link-icon"><i class="bi bi-people-fill"></i></div>
+                        Sentiment Analysis
+                    </a>
+                </div>
+            </div>
+            <div class="sb-sidenav-footer">
+                <div class="small">Author:</div>
+                2023 Spring Team 16
+            </div>
+        </nav>
+    </div>
+    <div id="layoutSidenav_content">
+        <main class="container-fluid px-4">
+            <h1 class="mt-4">Word Cloud</h1>
+        </main>
+        <div class="row">
+            <div class="col-md-9">
+                <div id="my_dataviz"></div>
+            </div>
+            <div class="col-md-3">
+                <div class="card">
+                    <div class="card-header">
+                        Controls
+                    </div>
+                    <div class="card-body pr-3">
+                        <form>
+                            <div class="form-group mb-3">
+                                <label for="optionsSelect">Subreddits</label>
+                                <select class="form-control" id="optionsSelect">
+                                    <option value="/static/data/nba.json">NBA</option>
+                                    <option value="/static/data/bitcoin.json">Bitcoin</option>
+                                    <option value="/static/data/worldnews.json">World News</option>
+                                    <option value="/static/data/chatgpt.json">ChatGPT</option>
+                                    <option value="/static/data/hkust.json">HKUST</option>
+<!--                                    <option value="WallStreat">Wall Street </option>-->
+                                </select>
+                            </div>
+<!--                            <button type="submit" class="btn btn-primary">Update</button>-->
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="py-4 bg-light">
+            <div class="text-muted text-center small">Copyright &copy; Weiming Guo, Yizhun Zhang and Zijian Wan 2023
+            </div>
+        </footer>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+<script src="{{ url_for('static', filename='js/scripts.min.js') }}"></script>
+<!-- Load d3.js -->
+<script src="https://d3js.org/d3.v4.js"></script>
+<!-- Load d3-cloud -->
+<script src="https://cdn.jsdelivr.net/gh/holtzy/D3-graph-gallery@master/LIB/d3.layout.cloud.js"></script>
+<script src = "{{ url_for('static', filename='js/wordCloud.js') }}"></script>
+</body>
+</html>
