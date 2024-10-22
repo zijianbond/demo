@@ -1,198 +1,130 @@
 [
     {
-        "word": "ukraine",
-        "count": 144
-    },
-    {
-        "word": "says",
-        "count": 120
-    },
-    {
-        "word": "war",
-        "count": 108
-    },
-    {
-        "word": "russia",
-        "count": 108
-    },
-    {
-        "word": "russian",
-        "count": 103
-    },
-    {
-        "word": "india",
-        "count": 96
-    },
-    {
-        "word": "north",
-        "count": 89
-    },
-    {
-        "word": "military",
-        "count": 84
+        "word": "man",
+        "count": 134
     },
     {
         "word": "us",
         "count": 84
     },
     {
-        "word": "korea",
-        "count": 78
-    },
-    {
-        "word": "canadian",
+        "word": "prison",
         "count": 72
     },
     {
-        "word": "china",
+        "word": "north",
         "count": 72
     },
     {
-        "word": "trudeau",
+        "word": "say",
         "count": 72
     },
     {
-        "word": "canada",
+        "word": "accused",
         "count": 72
     },
     {
-        "word": "weapons",
+        "word": "police",
+        "count": 72
+    },
+    {
+        "word": "arrested",
         "count": 60
     },
     {
-        "word": "nato",
+        "word": "texas",
         "count": 60
     },
     {
-        "word": "first",
+        "word": "woman",
         "count": 60
     },
     {
-        "word": "israeli",
-        "count": 60
+        "word": "years",
+        "count": 50
     },
     {
-        "word": "killed",
-        "count": 60
-    },
-    {
-        "word": "eu",
-        "count": 60
-    },
-    {
-        "word": "food",
-        "count": 59
-    },
-    {
-        "word": "gaza",
-        "count": 59
-    },
-    {
-        "word": "hamas",
+        "word": "says",
         "count": 48
     },
     {
-        "word": "security",
+        "word": "dead",
         "count": 48
     },
     {
-        "word": "zelensky",
+        "word": "sex",
         "count": 48
     },
     {
-        "word": "force",
+        "word": "military",
         "count": 48
     },
     {
-        "word": "soldiers",
+        "word": "officials",
         "count": 48
     },
     {
-        "word": "global",
+        "word": "claims",
         "count": 48
     },
     {
-        "word": "south",
+        "word": "election",
         "count": 48
     },
     {
-        "word": "israel",
-        "count": 47
+        "word": "russian",
+        "count": 48
     },
     {
-        "word": "trump",
-        "count": 36
+        "word": "hurricane",
+        "count": 48
     },
     {
-        "word": "zelenskyy",
-        "count": 36
+        "word": "milton",
+        "count": 48
     },
     {
-        "word": "alongside",
-        "count": 36
-    },
-    {
-        "word": "tells",
-        "count": 36
-    },
-    {
-        "word": "taiwan",
-        "count": 36
-    },
-    {
-        "word": "foreign",
-        "count": 36
-    },
-    {
-        "word": "deal",
-        "count": 36
-    },
-    {
-        "word": "victory",
-        "count": 36
-    },
-    {
-        "word": "plan",
-        "count": 36
-    },
-    {
-        "word": "package",
-        "count": 36
-    },
-    {
-        "word": "uk",
-        "count": 36
-    },
-    {
-        "word": "sanctions",
-        "count": 36
-    },
-    {
-        "word": "reports",
-        "count": 36
-    },
-    {
-        "word": "nkorean",
-        "count": 36
-    },
-    {
-        "word": "forces",
-        "count": 36
-    },
-    {
-        "word": "indian",
-        "count": 36
+        "word": "florida",
+        "count": 48
     },
     {
         "word": "new",
+        "count": 46
+    },
+    {
+        "word": "killing",
+        "count": 38
+    },
+    {
+        "word": "3",
+        "count": 38
+    },
+    {
+        "word": "judge",
         "count": 36
     },
     {
-        "word": "threatening",
+        "word": "million",
         "count": 36
     },
     {
-        "word": "ukrainian",
+        "word": "leader",
+        "count": 36
+    },
+    {
+        "word": "execution",
+        "count": 36
+    },
+    {
+        "word": "killed",
+        "count": 36
+    },
+    {
+        "word": "2",
+        "count": 36
+    },
+    {
+        "word": "county",
         "count": 36
     },
     {
@@ -200,171 +132,71 @@
         "count": 36
     },
     {
-        "word": "say",
-        "count": 30
+        "word": "trump",
+        "count": 36
     },
     {
-        "word": "arrested",
-        "count": 24
+        "word": "threats",
+        "count": 36
     },
     {
-        "word": "separatists",
-        "count": 24
+        "word": "carolina",
+        "count": 36
     },
     {
-        "word": "sinwar",
-        "count": 24
+        "word": "murder",
+        "count": 36
     },
     {
-        "word": "fire",
-        "count": 24
+        "word": "found",
+        "count": 36
     },
     {
-        "word": "launched",
-        "count": 24
+        "word": "parts",
+        "count": 36
     },
     {
-        "word": "either",
-        "count": 24
+        "word": "dies",
+        "count": 36
     },
     {
-        "word": "nuclear",
-        "count": 24
+        "word": "probe",
+        "count": 36
     },
     {
-        "word": "urges",
-        "count": 24
-    },
-    {
-        "word": "ties",
-        "count": 24
-    },
-    {
-        "word": "join",
-        "count": 24
-    },
-    {
-        "word": "officials",
-        "count": 24
-    },
-    {
-        "word": "police",
-        "count": 24
-    },
-    {
-        "word": "training",
-        "count": 24
-    },
-    {
-        "word": "france",
-        "count": 24
-    },
-    {
-        "word": "strikes",
-        "count": 24
-    },
-    {
-        "word": "cut",
-        "count": 24
-    },
-    {
-        "word": "key",
-        "count": 24
-    },
-    {
-        "word": "sending",
-        "count": 24
-    },
-    {
-        "word": "includes",
-        "count": 24
-    },
-    {
-        "word": "sudan",
-        "count": 24
+        "word": "tennessee",
+        "count": 36
     },
     {
         "word": "record",
+        "count": 34
+    },
+    {
+        "word": "sentenced",
+        "count": 26
+    },
+    {
+        "word": "cartel",
         "count": 24
     },
     {
-        "word": "–",
+        "word": "millions",
         "count": 24
     },
     {
-        "word": "un",
+        "word": "security",
         "count": 24
     },
     {
-        "word": "network",
+        "word": "gets",
         "count": 24
     },
     {
-        "word": "2",
+        "word": "38",
         "count": 24
     },
     {
-        "word": "german",
-        "count": 24
-    },
-    {
-        "word": "pilots",
-        "count": 24
-    },
-    {
-        "word": "world",
-        "count": 24
-    },
-    {
-        "word": "russias",
-        "count": 24
-    },
-    {
-        "word": "confirms",
-        "count": 24
-    },
-    {
-        "word": "cannot",
-        "count": 24
-    },
-    {
-        "word": "confirm",
-        "count": 24
-    },
-    {
-        "word": "fighting",
-        "count": 24
-    },
-    {
-        "word": "end",
-        "count": 24
-    },
-    {
-        "word": "iran",
-        "count": 24
-    },
-    {
-        "word": "tensions",
-        "count": 24
-    },
-    {
-        "word": "strike",
-        "count": 24
-    },
-    {
-        "word": "president",
-        "count": 24
-    },
-    {
-        "word": "seek",
-        "count": 24
-    },
-    {
-        "word": "use",
-        "count": 24
-    },
-    {
-        "word": "chief",
+        "word": "alabama",
         "count": 24
     },
     {
@@ -372,131 +204,15 @@
         "count": 24
     },
     {
-        "word": "years",
+        "word": "federal",
         "count": 24
     },
     {
-        "word": "korean",
+        "word": "biden",
         "count": 24
     },
     {
-        "word": "leaves",
-        "count": 24
-    },
-    {
-        "word": "politico",
-        "count": 24
-    },
-    {
-        "word": "water",
-        "count": 24
-    },
-    {
-        "word": "cycle",
-        "count": 24
-    },
-    {
-        "word": "balance",
-        "count": 24
-    },
-    {
-        "word": "‘first",
-        "count": 24
-    },
-    {
-        "word": "human",
-        "count": 24
-    },
-    {
-        "word": "history’",
-        "count": 24
-    },
-    {
-        "word": "half",
-        "count": 24
-    },
-    {
-        "word": "planet’s",
-        "count": 24
-    },
-    {
-        "word": "production",
-        "count": 24
-    },
-    {
-        "word": "receive",
-        "count": 24
-    },
-    {
-        "word": "bomb",
-        "count": 24
-    },
-    {
-        "word": "threats",
-        "count": 24
-    },
-    {
-        "word": "tax",
-        "count": 24
-    },
-    {
-        "word": "group",
-        "count": 24
-    },
-    {
-        "word": "firm",
-        "count": 24
-    },
-    {
-        "word": "criminal",
-        "count": 24
-    },
-    {
-        "word": "thread",
-        "count": 24
-    },
-    {
-        "word": "tank",
-        "count": 24
-    },
-    {
-        "word": "lebanon",
-        "count": 24
-    },
-    {
-        "word": "cnn",
-        "count": 24
-    },
-    {
-        "word": "regional",
-        "count": 24
-    },
-    {
-        "word": "calls",
-        "count": 24
-    },
-    {
-        "word": "could",
-        "count": 24
-    },
-    {
-        "word": "involved",
-        "count": 24
-    },
-    {
-        "word": "interference",
-        "count": 24
-    },
-    {
-        "word": "japan",
-        "count": 24
-    },
-    {
-        "word": "azerbaijan",
-        "count": 24
-    },
-    {
-        "word": "possible",
+        "word": "east",
         "count": 24
     },
     {
@@ -504,63 +220,147 @@
         "count": 24
     },
     {
-        "word": "aid",
+        "word": "hamas",
         "count": 24
     },
     {
-        "word": "admits",
+        "word": "yahya",
         "count": 24
     },
     {
-        "word": "hard",
+        "word": "sinwar",
         "count": 24
     },
     {
-        "word": "nijjar",
+        "word": "journalist",
         "count": 24
     },
     {
-        "word": "killing",
+        "word": "charges",
         "count": 24
     },
     {
-        "word": "least",
+        "word": "agrees",
         "count": 24
     },
     {
-        "word": "indigenous",
+        "word": "children",
         "count": 24
     },
     {
-        "word": "italy",
+        "word": "inmate",
         "count": 24
     },
     {
-        "word": "billion",
+        "word": "state",
         "count": 24
     },
     {
-        "word": "study",
+        "word": "charged",
         "count": 24
     },
     {
-        "word": "dozens",
+        "word": "bridge",
         "count": 24
     },
     {
-        "word": "intel",
+        "word": "water",
         "count": 24
     },
     {
-        "word": "body",
+        "word": "pay",
         "count": 24
     },
     {
-        "word": "people",
+        "word": "rally",
         "count": 24
     },
     {
-        "word": "tanker",
+        "word": "files",
+        "count": 24
+    },
+    {
+        "word": "lawsuit",
+        "count": 24
+    },
+    {
+        "word": "california",
+        "count": 24
+    },
+    {
+        "word": "sheriff",
+        "count": 24
+    },
+    {
+        "word": "court",
+        "count": 24
+    },
+    {
+        "word": "plea",
+        "count": 24
+    },
+    {
+        "word": "case",
+        "count": 24
+    },
+    {
+        "word": "former",
+        "count": 24
+    },
+    {
+        "word": "one",
+        "count": 24
+    },
+    {
+        "word": "member",
+        "count": 24
+    },
+    {
+        "word": "rescued",
+        "count": 24
+    },
+    {
+        "word": "10",
+        "count": 24
+    },
+    {
+        "word": "faces",
+        "count": 24
+    },
+    {
+        "word": "crime",
+        "count": 24
+    },
+    {
+        "word": "canada",
+        "count": 24
+    },
+    {
+        "word": "went",
+        "count": 24
+    },
+    {
+        "word": "missing",
+        "count": 24
+    },
+    {
+        "word": "slave",
+        "count": 24
+    },
+    {
+        "word": "jewish",
+        "count": 24
+    },
+    {
+        "word": "flight",
+        "count": 24
+    },
+    {
+        "word": "diddy",
+        "count": 24
+    },
+    {
+        "word": "floodwaters",
         "count": 24
     },
     {
@@ -568,39 +368,403 @@
         "count": 24
     },
     {
-        "word": "claims",
-        "count": 18
+        "word": "attack",
+        "count": 24
     },
     {
-        "word": "million",
-        "count": 18
+        "word": "deal",
+        "count": 24
     },
     {
-        "word": "blames",
+        "word": "plot",
+        "count": 24
+    },
+    {
+        "word": "horrified",
+        "count": 24
+    },
+    {
+        "word": "kids",
+        "count": 24
+    },
+    {
+        "word": "dont",
+        "count": 24
+    },
+    {
+        "word": "next",
+        "count": 24
+    },
+    {
+        "word": "stop",
+        "count": 24
+    },
+    {
+        "word": "must",
+        "count": 24
+    },
+    {
+        "word": "world",
+        "count": 24
+    },
+    {
+        "word": "2nd",
+        "count": 24
+    },
+    {
+        "word": "michigan",
+        "count": 24
+    },
+    {
+        "word": "file",
+        "count": 24
+    },
+    {
+        "word": "sexual",
+        "count": 24
+    },
+    {
+        "word": "assault",
+        "count": 24
+    },
+    {
+        "word": "lawsuits",
+        "count": 24
+    },
+    {
+        "word": "sean",
+        "count": 24
+    },
+    {
+        "word": "‘diddy’",
+        "count": 24
+    },
+    {
+        "word": "combs",
+        "count": 24
+    },
+    {
+        "word": "trying",
+        "count": 24
+    },
+    {
+        "word": "dismembered",
+        "count": 24
+    },
+    {
+        "word": "skeletons",
+        "count": 24
+    },
+    {
+        "word": "rare",
+        "count": 24
+    },
+    {
+        "word": "suspect",
+        "count": 24
+    },
+    {
+        "word": "toward",
+        "count": 24
+    },
+    {
+        "word": "fema",
+        "count": 24
+    },
+    {
+        "word": "11",
+        "count": 24
+    },
+    {
+        "word": "nra",
+        "count": 24
+    },
+    {
+        "word": "show",
+        "count": 24
+    },
+    {
+        "word": "near",
+        "count": 24
+    },
+    {
+        "word": "kill",
+        "count": 24
+    },
+    {
+        "word": "shooting",
+        "count": 24
+    },
+    {
+        "word": "9",
+        "count": 24
+    },
+    {
+        "word": "spacex",
+        "count": 24
+    },
+    {
+        "word": "first",
+        "count": 24
+    },
+    {
+        "word": "incident",
+        "count": 24
+    },
+    {
+        "word": "helene",
+        "count": 24
+    },
+    {
+        "word": "bag",
+        "count": 24
+    },
+    {
+        "word": "full",
+        "count": 24
+    },
+    {
+        "word": "la",
+        "count": 22
+    },
+    {
+        "word": "abuse",
+        "count": 22
+    },
+    {
+        "word": "top",
+        "count": 22
+    },
+    {
+        "word": "billion",
+        "count": 22
+    },
+    {
+        "word": "settlement",
+        "count": 22
+    },
+    {
+        "word": "exchange",
         "count": 12
     },
     {
-        "word": "ukraines",
+        "word": "government",
         "count": 12
     },
     {
-        "word": "zelenskiy",
+        "word": "assistance",
         "count": 12
     },
     {
-        "word": "starting",
+        "word": "demand",
         "count": 12
     },
     {
-        "word": "suggests",
+        "word": "exmexican",
         "count": 12
     },
     {
-        "word": "blame",
+        "word": "secretary",
         "count": 12
     },
     {
-        "word": "russiaukraine",
+        "word": "public",
+        "count": 12
+    },
+    {
+        "word": "execute",
+        "count": 12
+    },
+    {
+        "word": "methfueled",
+        "count": 12
+    },
+    {
+        "word": "rampage",
+        "count": 12
+    },
+    {
+        "word": "halt",
+        "count": 12
+    },
+    {
+        "word": "program",
+        "count": 12
+    },
+    {
+        "word": "purged",
+        "count": 12
+    },
+    {
+        "word": "thousands",
+        "count": 12
+    },
+    {
+        "word": "legal",
+        "count": 12
+    },
+    {
+        "word": "voters",
+        "count": 12
+    },
+    {
+        "word": "approved",
+        "count": 12
+    },
+    {
+        "word": "175",
+        "count": 12
+    },
+    {
+        "word": "student",
+        "count": 12
+    },
+    {
+        "word": "loan",
+        "count": 12
+    },
+    {
+        "word": "forgiveness",
+        "count": 12
+    },
+    {
+        "word": "nearly",
+        "count": 12
+    },
+    {
+        "word": "people",
+        "count": 12
+    },
+    {
+        "word": "middle",
+        "count": 12
+    },
+    {
+        "word": "confirmed",
+        "count": 12
+    },
+    {
+        "word": "israeli",
+        "count": 12
+    },
+    {
+        "word": "foreign",
+        "count": 12
+    },
+    {
+        "word": "minister",
+        "count": 12
+    },
+    {
+        "word": "independent",
+        "count": 12
+    },
+    {
+        "word": "treason",
+        "count": 12
+    },
+    {
+        "word": "belarus",
+        "count": 12
+    },
+    {
+        "word": "archdiocese",
+        "count": 12
+    },
+    {
+        "word": "880m",
+        "count": 12
+    },
+    {
+        "word": "scheduled",
+        "count": 12
+    },
+    {
+        "word": "today",
+        "count": 12
+    },
+    {
+        "word": "question",
+        "count": 12
+    },
+    {
+        "word": "he’s",
+        "count": 12
+    },
+    {
+        "word": "called",
+        "count": 12
+    },
+    {
+        "word": "testify",
+        "count": 12
+    },
+    {
+        "word": "committee",
+        "count": 12
+    },
+    {
+        "word": "mexico",
+        "count": 12
+    },
+    {
+        "word": "exdrug",
+        "count": 12
+    },
+    {
+        "word": "czar",
+        "count": 12
+    },
+    {
+        "word": "bribes",
+        "count": 12
+    },
+    {
+        "word": "israels",
+        "count": 12
+    },
+    {
+        "word": "looking",
+        "count": 12
+    },
+    {
+        "word": "whether",
+        "count": 12
+    },
+    {
+        "word": "operation",
+        "count": 12
+    },
+    {
+        "word": "gaza",
+        "count": 12
+    },
+    {
+        "word": "britain",
+        "count": 12
+    },
+    {
+        "word": "raises",
+        "count": 12
+    },
+    {
+        "word": "risk",
+        "count": 12
+    },
+    {
+        "word": "level",
+        "count": 12
+    },
+    {
+        "word": "bird",
+        "count": 12
+    },
+    {
+        "word": "flu",
+        "count": 12
+    },
+    {
+        "word": "medium",
         "count": 12
     },
     {
@@ -612,191 +776,27 @@
         "count": 12
     },
     {
-        "word": "‘anonsudan’",
+        "word": "running",
         "count": 12
     },
     {
-        "word": "takedown",
+        "word": "cyberattackforhire",
         "count": 12
     },
     {
-        "word": "high",
+        "word": "gang",
         "count": 12
     },
     {
-        "word": "ranking",
+        "word": "firm",
         "count": 12
     },
     {
-        "word": "commander",
+        "word": "hacked",
         "count": 12
     },
     {
-        "word": "assassinated",
-        "count": 12
-    },
-    {
-        "word": "near",
-        "count": 12
-    },
-    {
-        "word": "moscow",
-        "count": 12
-    },
-    {
-        "word": "denies",
-        "count": 12
-    },
-    {
-        "word": "working",
-        "count": 12
-    },
-    {
-        "word": "mobsters",
-        "count": 12
-    },
-    {
-        "word": "target",
-        "count": 12
-    },
-    {
-        "word": "sikh",
-        "count": 12
-    },
-    {
-        "word": "soil",
-        "count": 12
-    },
-    {
-        "word": "hid",
-        "count": 12
-    },
-    {
-        "word": "rafah",
-        "count": 12
-    },
-    {
-        "word": "tunnel",
-        "count": 12
-    },
-    {
-        "word": "six",
-        "count": 12
-    },
-    {
-        "word": "hostages",
-        "count": 12
-    },
-    {
-        "word": "executed",
-        "count": 12
-    },
-    {
-        "word": "devices",
-        "count": 12
-    },
-    {
-        "word": "catch",
-        "count": 12
-    },
-    {
-        "word": "undetectable",
-        "count": 12
-    },
-    {
-        "word": "airport",
-        "count": 12
-    },
-    {
-        "word": "scanners",
-        "count": 12
-    },
-    {
-        "word": "expert",
-        "count": 12
-    },
-    {
-        "word": "warns",
-        "count": 12
-    },
-    {
-        "word": "project",
-        "count": 12
-    },
-    {
-        "word": "using",
-        "count": 12
-    },
-    {
-        "word": "japanese",
-        "count": 12
-    },
-    {
-        "word": "drones",
-        "count": 12
-    },
-    {
-        "word": "demining",
-        "count": 12
-    },
-    {
-        "word": "membership",
-        "count": 12
-    },
-    {
-        "word": "handle",
-        "count": 12
-    },
-    {
-        "word": "issue",
-        "count": 12
-    },
-    {
-        "word": "cautiously",
-        "count": 12
-    },
-    {
-        "word": "mumbai",
-        "count": 12
-    },
-    {
-        "word": "office",
-        "count": 12
-    },
-    {
-        "word": "opening",
-        "count": 12
-    },
-    {
-        "word": "accuses",
-        "count": 12
-    },
-    {
-        "word": "damaging",
-        "count": 12
-    },
-    {
-        "word": "amid",
-        "count": 12
-    },
-    {
-        "word": "diplomatic",
-        "count": 12
-    },
-    {
-        "word": "row",
-        "count": 12
-    },
-    {
-        "word": "pursue",
-        "count": 12
-    },
-    {
-        "word": "rulings",
-        "count": 12
-    },
-    {
-        "word": "signal",
+        "word": "accidentally",
         "count": 12
     }
 ]
